@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/charactersGridFragment">
+
+    <fragment
+        android:id="@+id/charactersGridFragment"
+        android:name="com.github.adizcode.narutoverse.destinations.CharactersGridFragment"
+        android:label="CharactersGridFragment" >
+        <action
+            android:id="@+id/action_charactersGridFragment_to_characterOverviewFragment2"
+            app:destination="@id/characterOverviewFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterOverviewFragment"
+        android:name="com.github.adizcode.narutoverse.destinations.CharacterOverviewFragment"
+        android:label="CharacterOverviewFragment" >
+        <action
+            android:id="@+id/action_characterOverviewFragment_to_characterDescriptionFragment"
+            app:destination="@id/characterDescriptionFragment"
+            app:enterAnim="@anim/slide_bottom_to_center"
+            app:exitAnim="@anim/slide_center_to_top"
+            app:popEnterAnim="@anim/slide_top_to_center"
+            app:popExitAnim="@anim/slide_center_to_bottom" />
+        <argument
+            android:name="character"
+            app:argType="com.github.adizcode.narutoverse.model.Character" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDescriptionFragment"
+        android:name="com.github.adizcode.narutoverse.destinations.CharacterDescriptionFragment"
+        android:label="CharacterDescriptionFragment" >
+        <argument
+            android:name="character"
+            app:argType="com.github.adizcode.narutoverse.model.Character" />
+    </fragment>
+</navigation>

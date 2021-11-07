@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="names">
+        <item>Naruto Uzumaki</item>
+        <item>Sasuke Uchiha</item>
+        <item>Sakura Haruno</item>
+        <item>Hinata Hyuga</item>
+        <item>Kiba Inuzuka</item>
+        <item>Shino Aburame</item>
+        <item>Shikamaru Nara</item>
+        <item>Choji Akimichi</item>
+        <item>Ino Yamanaka</item>
+        <item>Rock Lee</item>
+        <item>Neji Hyuga</item>
+        <item>Tenten</item>
+        <item>Gaara</item>
+        <item>Kankuro</item>
+        <item>Temari</item>
+        <item>Kakashi Hatake</item>
+        <item>Kurenai Yuhi</item>
+        <item>Asuma Sarutobi</item>
+        <item>Might Guy</item>
+        <item>Ibiki Morino</item>
+        <item>Anko Mitarashi</item>
+        <item>Zabuza Momochi</item>
+        <item>Haku</item>
+        <item>Orochimaru</item>
+        <item>Kabuto Yakushi</item>
+        <item>Iruka Umino</item>
+        <item>Hiruzen Sarutobi</item>
+    </string-array>
+
+</resources>

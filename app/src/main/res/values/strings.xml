@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Narutoverse</string>
+    <string name="character_image">Character Image</string>
+    <string name="character_image_big">Character Image Big</string>
+    <string name="character_image_small">Character Image Small</string>
+    <string name="read_more">READ MORE</string>
+</resources>
